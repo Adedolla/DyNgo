@@ -1,0 +1,166 @@
+.Main {
+    background: linear-gradient(rgba(255, 102, 0, 0.6), rgba(255, 102, 0, 0.6)), url(/DY/img/esteban-benites-_bZzytRTSvo-unsplash.jpg) no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .Main h1 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 8px #ff6600; /* orange shadow */
+  }
+.About {
+    background: url(/DY/img/atul-pandey-0f3bZHXZSz8-unsplash.jpg) no-repeat center center/cover;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+footer {
+    background: #ff6600; /* orange background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    background: #ff6600; /* orange background */
+    color: white;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff3e0; /* lighter orange on hover */
+}
+
+.btn-warning {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    color: white;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+.Dy{
+    padding-top: 2px;
+    margin: auto;
+
+}
+.Ruth{
+    padding-top: 2px;
+    margin: auto;
+
+}
+.Tony{
+    padding-top: 2px;
+    margin: auto;
+}
+.Folashade{
+    padding-top: 2px;
+    margin: auto;
+}
+.Olojede{
+    padding-top: 2px;
+    margin: auto;
+}
+.Daniel{
+    padding-top: 2px;
+    margin: auto;
+}
+.btn-warning:hover,
+.btn-warning:focus {
+    background-color: #e65c00;
+    border-color: #e65c00;
+    color: white;
+}
+
+.btn-dark {
+    background-color: white;
+    border-color: white;
+    color: #ff6600;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+    background-color: #ffe6cc;
+    border-color: #ffe6cc;
+    color: #cc5200;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    color: white;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #e65c00;
+    border-color: #e65c00;
+    color: white;
+}
+
+/* Override Bootstrap text color classes used in icons */
+.text-primary {
+    color: #ff6600 !important;
+}
+
+.text-danger {
+    color: #ff6600 !important;
+}
+
+.text-info {
+    color: #ff6600 !important;
+}
+
+.text-success {
+    color: #ff6600 !important;
+}
+
+/* Make all text bold globally */
+body, h1, h2, h3, h4, h5, h6, p, a, li, span, div, input, textarea, button {
+    font-weight: bold;
+}
+
+/* Animations */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 102, 0, 0.7);
+    }
+    70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px 10px rgba(255, 102, 0, 0);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 102, 0, 0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
